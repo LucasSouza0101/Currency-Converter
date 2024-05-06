@@ -1,10 +1,10 @@
 <h1 align="center">Currency Converter</h1>
 <br>
 <br>
-<h3 align="center">Bem-vindo ao Conversor de Moedas, um projeto simples e funcional desenvolvido em JavaScript para converter valores de Real Brasileiro para Dólar Americano, Libra Esterlina, Euro e Bitcoin. Este projeto inclui versões para desktop e celular, proporcionando uma experiência de conversão de moedas acessível em diferentes dispositivos</h3>
+<h3 align="center">Bem-vindo(a) ao Conversor de Moedas, um projeto simples e funcional desenvolvido em JavaScript para converter valores de Real Brasileiro para Dólar Americano, Euro e Bitcoin. Este projeto inclui versões para desktop e celular, proporcionando uma experiência de conversão de moedas acessível em diferentes dispositivos</h3>
 <br>
 <h3>Funcionalidades</h3>
-<p>- Conversão rápida e fácil de Real para Dólar Americano, Libra Esterlina, Euro e Bitcoin.</p>
+<p>- Conversão rápida e fácil de Real para Dólar Americano, Euro e Bitcoin.</p>
 <p>- Interface intuitiva e amigável.</p>
 <p>- Suporte a ambientes desktop e mobile.</p>
 <table align="center">
