@@ -29,3 +29,17 @@
 <p>1. Insira o valor em Real que deseja converter.</p>
 <p>2. Selecione a moeda desejada para a conversão.</p>
 <p>3. O resultado da conversão será exibido instantaneamente.</p>
+<br>
+<h3 align="center">Tecnologias Utilizadas</h3>
+<br>
+<p align="center">
+  <img align="center" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt=html-logo>
+</p>
+<br>
+<p align="center">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=css-logo>
+</p>
+<br>
+<p align="center">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt=java-logo>
+</p>
