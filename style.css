@@ -2,66 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    outline: none;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: #8A51FC;
+    background-image: url(./assets/black-bkd.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-logo {
-    width: 300px;
-    display: block;
-    margin: 20px auto;
+.coin-icon {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
 }
 
 main {
     background-color: #F4F4F4;
+    padding: 30px;
     width: 375px;
     border-radius: 20px;
-    margin: 0 auto 40px;
-    padding: 44px 24px 23px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 label {
     font-weight: 400;
     font-size: 14px;
-    color: #777777;
-    
+    line-height: 18px;
+    color: #101010;
+
 }
 
-select, input {
-    width: 100%;
+select,
+input {
+    width: 327px;
     height: 48px;
-    appearance: none;
+    border: 1px solid #101010;
     border-radius: 4px;
-    border: solid 1px #BBBBBB;
+    appearance: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 16px;
+    line-height: 18px;
     color: #555555;
-    padding-left: 18px;
-    margin-top: 6px;
-    margin-bottom: 24px;
-
+    padding-left: 20px;
 }
 
-select {
-    cursor: pointer;
-}
+
 
 button {
+    width: 327px;
     height: 48px;
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    background-color: #772FD3;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #000000;
     font-weight: 700;
     font-size: 18px;
-    color: #FFFFFF;
-    cursor: pointer;
-    box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.3)
-    ;
+    line-height: 18px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 30px;
 }
 
 button:hover {
@@ -69,138 +76,98 @@ button:hover {
 }
 
 button:active {
-    opacity: .6;
+    opacity: .5;
 }
 
 section {
-    border: 1px solid #772FD3;
+    border: 1px solid black;
+    width: 327px;
+    height: 276px;
     border-radius: 20px;
-    margin-top: 36px;
-    padding: 12px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+    gap: 20px;
 }
 
-.arrow {
-    margin: 15px 0;
-}
-
-.currency-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-}
-
-.currency {
-    font-weight: 400;
-    font-size: 14px;
-    color: #777777;
-}
-
-.currency-value, .currency-value-to-convert {
+p {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 18px;
     color: #555555;
 }
 
-@media screen and (max-width: 400px){
+.arrow-icon {
+    width: 40px;
+    height: 40px;
+}
 
-    .img-logo {
-        display: none;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #F4F4F4;
-    }
-
+@media screen and (max-width: 420px){
     main {
-        width: 100vw;
-        height: 100vh;
-        
+        width: 365px;
+        margin-bottom: 20px;
+    }
+    .coin-icon {
+        width: 130px;
+        height: 130px;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    main {
+        width: 365px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    main {
+        width: 335px;
     }
 
-    section {
-        padding: 53px;
-        height: 52%;
+    select, input {
+        width: 300px;
+    }
+
+    button, section {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    main {
+        width: 300px;
+    }
+
+    select, input, button, section {
+        width: 275px;
     }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 320px){
+    main {
+        width: 280px;
+    }
+
+    select, input, button, section {
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 290px){
+    main {
+        width: 245px;
+    }
+
+    select, input, button, section {
+        width: 180px;
+    }
+
+    section {
+        height: 310px;
+    }
+}
