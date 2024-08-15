@@ -11,16 +11,10 @@
   <tr>
     <td>
       <figure>
-        <figcaption>Desktop:</figcaption>
-        <img src="e" alt="desktop-image" style="width: 100%;">
+        <img src="https://github.com/LucasSouza0101/Currency-Converter/blob/main/assets/desktop-screenshot.png?raw=true" alt="desktop-image" style="width: 100%;">
       </figure>
     </td>
-    <td>
-     <figure>
-       <figcaption>Mobile:</figcaption>
-       <img src="" alt="mobile-image" style="width: 100%;">
-     </figure> 
-    </td>
+    
   </tr>
 </table>
 
